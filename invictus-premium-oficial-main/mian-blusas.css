@@ -1,0 +1,94 @@
+body {
+    background-color: #c99c3f;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    }
+    ul {
+       padding: 0px!important; 
+    }
+    .menu-principal {
+    width: 100%;
+    background-color: #000000;
+    height: 70px;
+    }
+    main, .content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+    }
+    .logo {
+        padding: 5px;
+        padding-left: 50px;
+     float: left;
+     width:10%;
+    }
+    
+    .header-2 {
+    width: 90%;
+    padding-left: 150px;
+    }   
+    .menu ul li {
+        display: inline-block;
+        color: #000000;
+        margin-left: 15px;
+        height: 30px;
+    }
+    
+    .menu ul li:hover {
+        border-bottom: 3px solid #00bac6;
+    }
+    
+    .menu ul li a:hover {
+        color: #00bac6;
+        
+    }
+    
+    .menu ul li a {
+        color: #8b8b8b;
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    .menu {
+    width: 70%;
+    padding-top: 11px;
+    padding-left: 120px;
+    }
+    .slider {
+        display: block;
+        height: auto;
+        width:auto;
+        margin-top: -1px;
+        position: relative;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Define 3 colunas com largura igual */
+        grid-gap: 30px; /* Espaçamento entre os itens */
+        margin-left: 125px;
+        margin-top: 20px;
+      }
+      
+      .grid-item {
+        width: 60%; /* Largura do item */
+      
+      }
+      
+      .grid-item img {
+        width: 100%; /* Ajusta a imagem para preencher o item */
+        
+      }
+      
+      .grid-item h3 {
+        text-align: center; /* Centraliza o texto */
+        line-height: 1px;   
+    }
+    .footer-bar {
+        background-color: black;
+        height: 9px;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+      }

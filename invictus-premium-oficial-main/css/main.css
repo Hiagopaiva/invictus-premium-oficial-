@@ -1,0 +1,239 @@
+body {
+background-color: #c99c3f;
+width: 100%;
+height: 100%;
+margin: 0 auto;
+}
+ul {
+   padding: 0px!important; 
+}
+.menu-principal {
+width: 100%;
+background-color: #000000;
+height: 70px;
+}
+main, .content {
+margin: 0 auto;
+width: 980px;
+position: relative;
+}
+.logo {
+    padding: 5px;
+    padding-left: 50px;
+ float: left;
+ width:10%;
+}
+
+.header-2 {
+width: 90%;
+padding-left: 150px;
+}   
+.menu ul li {
+    display: inline-block;
+    color: #000000;
+    margin-left: 15px;
+    height: 30px;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid #00bac6;
+}
+
+.menu ul li a:hover {
+    color: #00bac6;
+    
+}
+
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.menu {
+width: 70%;
+padding-top: 11px;
+padding-left: 80px;
+}
+.slider {
+    display: block;
+    height: auto;
+    width:auto;
+    margin-top: -1px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+.slider input {
+    display: none;
+}
+.slider label {
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 620px;
+}
+
+.slider li:nth-child(2) label {
+    left:650px;
+}
+
+.slider li:nth-child(3) label {
+    left: 680px;
+}.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.text {
+    @font-face 
+        font-family:MTFJumpinJack;
+        src: url(fonts/MTFJumpinJack.ttf);
+    
+    font-size: 58px;
+    padding-top: 430px;
+    padding-left: 600px;
+    
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Define 3 colunas com largura igual */
+  grid-gap: 20px; /* Espaçamento entre os itens */
+  margin-left: 125px;
+  margin-top: 20px;
+}
+
+.grid-item {
+  width: 50%; /* Largura do item */
+
+}
+
+.grid-item img {
+  width: 100%; /* Ajusta a imagem para preencher o item */
+  
+}
+
+.grid-item h3 {
+  text-align: center; /* Centraliza o texto */
+  line-height: 1px;
+}
+
+  .botao {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 590px;
+    padding: 10px 20px;
+    background-color:#7D5C1A;
+    color: #e8f71e;
+    text-decoration: none;
+    border: 1px solid #000000;
+    border-radius: 4px;
+  }
+.text-2{
+    @font-face 
+        font-family:MTFJumpinJack;
+        src: url(fonts/MTFJumpinJack.ttf);
+    
+    font-size: 58px;
+    padding-top: 20px;
+    padding-left: 550px;
+    }
+.grid-container-2{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* Define 3 colunas com largura igual */
+      grid-gap: 20px; /* Espaçamento entre os itens */
+      margin-left: 125px;
+      margin-top: 20px;
+}
+.grid-item {
+  width:50%; /* Largura do item */
+}
+.grid-item img {
+  width: 100%; /* Ajusta a imagem para preencher o item */
+}
+
+.grid-item h3 {
+  text-align: center; /* Centraliza o texto */
+  line-height: 1px;
+}
+
+.botao2 {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 575px;
+  padding: 10px 20px;
+  background-color:#7D5C1A;
+  color: #e8f71e;
+  text-decoration: none;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+.text-3{
+  @font-face 
+      font-family:MTFJumpinJack;
+      src: url(fonts/MTFJumpinJack.ttf);
+  
+  font-size: 58px;
+  padding-top: 20px;
+  padding-left: 550px;
+  }
+  .grid-container-4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Define 3 colunas com largura igual */
+    grid-gap: 30px; /* Espaçamento entre os itens */
+    margin-left: 125px;
+    margin-top: 20px;
+}
+.grid-item {
+width:60%; /* Largura do item */
+}
+.grid-item img {
+width: 100%; /* Ajusta a imagem para preencher o item */
+}
+
+.grid-item h3 {
+text-align: center; /* Centraliza o texto */
+line-height: 1px;
+}
+
+.botao3 {
+display: inline-block;
+margin-top: 30px;
+margin-left: 575px;
+padding: 10px 20px;
+background-color:#7D5C1A;
+color: #e8f71e;
+text-decoration: none;
+border: 1px solid #000000;
+border-radius: 4px;
+}
+.fim {
+  margin-top: 10px;
+  width: 100%;
+  background-color: #000000;
+  height: 70px;
+  }
